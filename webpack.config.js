@@ -1,7 +1,7 @@
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import path from 'path';
-import UglifyJsPlugin from 'uglifyjs-webpack-plugin';
-import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const APP_DIR = path.resolve(__dirname, './src');
 const PUBLIC_DIR = path.resolve(__dirname, './public');
